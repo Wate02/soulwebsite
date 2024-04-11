@@ -1,0 +1,90 @@
+body {
+    font-size: 15pt;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#title {
+  
+text-shadow: 0.2px 0.2px black;
+
+}
+
+button {
+  border-radius: 5px;
+  color: #000;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 10px;
+  color: white;
+  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#box1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url("img/ta.png");
+  text-align: center;
+  color: white;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+nav {
+  display: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+
+.topnav #myLinks {
+  display: none;
+}
+
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: transparent;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: transparent;
+  color: white;
+}
+
+#articleimg1 {
+  float: left;
+  padding-right: 20px;
+}
+
+#article {
+  background:#03175940;
+  padding: 10px;
+  
+  
+}
