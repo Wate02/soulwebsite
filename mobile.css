@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background-color: #212528;
 }
 
 
@@ -102,6 +103,7 @@ nav {
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 900px;
+  color: white
 }
 
 #cards {
@@ -117,4 +119,9 @@ footer {
   color: white;
   width: 100%;
   text-align: center;
+}
+
+#idk69 {
+  text-align: center;
+  color: white;
 }

@@ -5,6 +5,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  background-color: #212528;
 }
 
 #title {
@@ -71,6 +72,8 @@ a {
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  color: white;
+  min-height: 200px;
 }
 
 #article {
@@ -93,4 +96,9 @@ footer {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
+}
+
+#idk69 {
+  text-align: center;
+  color: white;
 }
