@@ -145,6 +145,7 @@ footer {
   align-items: center;
   text-align: center;
   justify-content: center;
+  color: white;
 }
 
 #copiedjavamsg {
@@ -154,7 +155,7 @@ footer {
   
 }
 
-#copiedbedrockmsg {
+#copiedjavamsg {
   color: white;
   z-index: 1;
   

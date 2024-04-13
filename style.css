@@ -117,10 +117,26 @@ footer {
 
 }
 
+
 #inputcontainer {
   align-items: center;
   text-align: center;
   justify-content: center;
-  float: center;
+  color: white;
+  padding-bottom: 20px;
+}
+
+#copiedjavamsg {
+  color: white;
+  z-index: 1;
+  
+  
+}
+
+#copiedjavamsg {
+  color: white;
+  z-index: 1;
+  
+  
 }
 
