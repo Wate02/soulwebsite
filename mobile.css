@@ -126,3 +126,37 @@ footer {
   text-align: center;
   color: white;
 }
+
+/* Join.html ---------------- */
+#copyjava {
+  border-radius: 5px;
+  color: #000;
+  background-color: transparent;
+  border: 0.5px solid white;
+  padding: 10px;
+  color: white;
+  float:center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-align: center;
+  
+}
+
+#inputcontainer {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+#copiedjavamsg {
+  color: white;
+  z-index: 1;
+  
+  
+}
+
+#copiedbedrockmsg {
+  color: white;
+  z-index: 1;
+  
+  
+}

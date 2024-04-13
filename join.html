@@ -1,14 +1,75 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+
+
+  <link rel="stylesheet" href="style.css" media="screen and (min-width: 900px)">
+  <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 900px)">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/af7de7fd0e.js" crossorigin="anonymous"></script>
+
+  <title>SoulSMP</title>
 </head>
 
 <body>
+  <div class="topnav">
+    <a href="#home" class="active">SoulSMP</a>
+    <div id="myLinks">
+      <a onclick="discord()">Test</a>
+      <a href="#test">Test2</a>
+      <a href="#test">Test3</a>
+    </div>
+   
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>  
+    </a>
+  </div>
+  
 
+  <div id="box1">
+    <nav>
+      <a onclick="discord()">Discord</a>
+    </nav>
+    <h1 id="title">SoulSMP (logo)</h1>
+  </div>
+
+<h2 id="idk69"> Beitreten</h2>
+<h4 id="idk69">(Zum kopieren klicken)</h4>
+<div id="inputcontainer">
+<b id="idk69">Java Ip:</b><br>
+<div onclick="togglecopiedjava()" id="copiedjavamsg">
+  Kopiert <i class="fa-solid fa-check"></i>
+</div>
+
+<input type="text" value="soul.smpmc.eu" id="copyjava" onclick="copyjava()"readonly></div>
+
+<br>
+<div id="inputcontainer">
+  <b id="idk69">Bedrock Ip:</b><br>
+  <div onclick="copybedrock()" id="copiedbedrockmsg">
+    Kopiert <i class="fa-solid fa-check"></i>
+  </div>
+
+  <input type="text" value="soul.smpmc.eu" id="copyjava" onclick="copybedrock()" readonly>
+</div>
+   <footer>
+    <br>
+     <p>&copy; 2024 mdfx. Alle Rechte vorbehalten.</p>
+     <div class="social-links">
+       <a href="#"><i class="fa fa-twitter"></i></a>
+       <a href="#"><i class="fa fa-instagram"></i></a>
+       <a href="#"><i class="fa fa-facebook"></i></a>
+     </div>
+     <br>
+   </footer>
+  
+
+  <script src="join.js"></script>
 </body>
-
 </html>

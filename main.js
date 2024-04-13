@@ -11,3 +11,8 @@ function myFunction() {
 function discord() {
   location.href = 'https://www.google.com';
 }
+
+function join() {
+  location.href = 'join.html';
+}
+
