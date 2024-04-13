@@ -140,3 +140,12 @@ footer {
   
 }
 
+
+#qna {
+  background-color: #333
+}
+
+#qans {
+  padding-left: -20px;
+  text-align: center;
+}

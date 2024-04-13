@@ -1,4 +1,13 @@
-var copiedjavamsg = document.getElementById("copiedjavamsg");
+  function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+  
+  var copiedjavamsg = document.getElementById("copiedjavamsg");
 
 
 copiedjavamsg.style.display = "none";
@@ -25,6 +34,7 @@ function copybedrock() {
     copiedbedrockmsg.style.display = "none";
   }, 3000);
 }
+
 
 
 
